@@ -1,0 +1,48 @@
+body {
+	font-size: 16px;
+}
+
+
+.carousel-inner{
+  height: 400px;
+  overflow: hidden;
+  
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+ min-width: 100%;  
+}
+
+a.navbar-brand:link {
+	
+	font-size: 1.5em;
+}
+
+.row {
+	margin:0px auto;
+}
+
+.btn-primary {
+	background-color: black;
+	border-radius: 0px;
+	border: 0px;
+}
+
+.form-group {
+	margin: 0px 0px 10px 0px;
+}
+
+.right {
+	float: right;
+}
+
+.headlinecaption {
+	width: 50%;
+	float: left;
+	display: inline,
+}
+
+h1 {
+	margin: 40px 0px;
+}
+	

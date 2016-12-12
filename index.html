@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <title>Not yet namded Friseur salon</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+     <!-- Latest compiled and minified JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+     <link href="styles.css" rel="stylesheet"/>
+
+  </head>
+
+  <body>
+
+      <!-- NAVIGATION -->
+
+    <nav class="navbar navbar-default">
+  		<div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">haargenau</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          
+        
+        
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Our services</a></li>
+            <li><a href="#">Our services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#services">Our services</a></li>
+             <form class="navbar-form navbar-right">
+            <li>
+          <!-- Button trigger modal--> 
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" data-backdrop="false">
+            Termin buchen
+          </button>
+          <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </li>
+            </form> 
+          </ul>
+          
+         
+          
+          
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+	</nav>
+
+    <!-- SLIDER -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+      
+        <div class="item active">
+          <img src="http://centurystyle.net/wp-content/uploads/2015/05/2011-frisuren.jpg" class="img-responsive center-block" alt="">
+        </div>
+    
+        <div class="item">
+          <img src="https://theotherhubby.files.wordpress.com/2014/06/hair-commercial.gif" alt="">
+        </div>
+    
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+<!-- Our services -->
+    <div class="container-fluid">
+  <h1 id="services" class="text-center">Our Services</h1>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div class="caption">
+          <div class="headlinecaption">Coloring.</div>
+          <span class="glyphicon glyphicon-star right" aria-hidden="true"></span>
+          </div>
+          <img src="https://theotherhubby.files.wordpress.com/2014/06/hair-commercial.gif" alt="...">
+        </div>
+    </div>
+
+    
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div class="caption">
+          <div class="headlinecaption">Coloring.</div>
+          <span class="glyphicon glyphicon-star right" aria-hidden="true"></span>
+          </div>
+          <img src="https://theotherhubby.files.wordpress.com/2014/06/hair-commercial.gif" alt="...">
+        </div>
+    </div>
+
+    
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div class="caption">
+          <div class="headlinecaption">Coloring.</div>
+          <span class="glyphicon glyphicon-star right" aria-hidden="true"></span>
+          </div>
+          <img src="https://theotherhubby.files.wordpress.com/2014/06/hair-commercial.gif" alt="...">
+        </div>
+    </div>
+
+  </div>
+
+
+        
+    <!-- Make an apointment -->
+    
+	
+    	
+        <h1 class="text-center">Make an appoinment</h1>
+        
+        <div class="row">
+          <div class="col-md-6"> 
+        
+          <form>
+            <div class="form-group row">
+              <label for="inputEmail3">Email</label>
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3">Password</label>
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+            <div class="form-group row">
+              <label for="inputdate">Date</label>
+              <input type="password" class="form-control" id="inputdate" placeholder="Date">
+            </div>
+            <div class="form-group row">
+    		<label for="exampleTextarea">Example textarea</label>
+    		<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  			</div>
+            <div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Check me out
+                  </label>
+                </div>
+             </div>
+            <div class="form-group row">
+            	<button type="submit" class="btn btn-primary">Sign in</button>
+           	 </div>
+          </form>
+    </div>
+          
+    <div class="col-md-6">
+    <div class="table-responsive">
+          <table class="table">
+            <tr>
+              <th>Day</th>
+              <th>Working hours</th> 
+  			</tr>
+            <tr>
+              <td>Monday</td>
+              <td>We stay in bed.</td> 
+            </tr>
+             <tr>
+              <td>Tuesday</td>
+              <td>8am - 6pm</td> 
+            </tr>
+             <tr>
+              <td>Wednesday</td>
+              <td>8am - 6pm</td> 
+            </tr>
+             <tr>
+              <td>Friday</td>
+              <td>8am - 6pm</td> 
+            </tr>
+            
+          </table>
+          <p>
+          * We don´t work on holidays.
+          </p>
+        </div>
+          
+    </div>
+    
+        
+             
+    	
+	</div>
+
+    <!-- Modal-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><br>
+			</button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body&hellip;</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    </div>
+
+ </body>
+
+</html>

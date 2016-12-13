@@ -1,3 +1,7 @@
+* {
+	border-radius: 0px;
+}
+
 body {
 	font-size: 16px;
 }
@@ -15,7 +19,6 @@ body {
 
 a.navbar-brand:link {
 	
-	font-size: 1.5em;
 }
 
 .row {
@@ -43,6 +46,85 @@ a.navbar-brand:link {
 }
 
 h1 {
-	margin: 40px 0px;
+	margin-top: 40px;
+	font-weight: bold;
+	
 }
 	
+footer {
+	background-color: black;
+	padding: 30px;
+}
+
+.list-unstyled{
+	color: white;
+}
+
+a {
+	color: grey;
+}
+
+a:hover {
+	color: #959595;
+}
+
+.panel-default>.panel-heading {
+	background-color: black;
+	border-radius: 0px;
+	color: white;
+}
+
+.navbar-default {
+	background-color: black;
+	color: white;
+	margin: 0px;
+	border-radius: 0px;
+	border:0px;
+}
+
+input.form-control, form-control {
+	border-radius: 0px;
+}
+
+hr {
+	border: 1px dashed #D8D8D8;
+	margin-top: 30px;
+}
+
+.row {
+	width: 100%;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+.thumbnail {
+	border-radius: 0px;
+	border: 0px;
+	height: 250px;
+	overflow: hidden;
+}
+
+
+.caption {
+	background-color: black;
+	height: 40px;
+	color: white;
+}
+
+.headlinecaption {
+	color: white;
+}
+
+.white {
+	color: white;
+}
+
+.navbar-form {
+	background-color: black;
+}
+
+.black {
+	background-color: black !important;
+}

@@ -8,18 +8,29 @@ body {
 
 
 .carousel-inner{
-  height: 400px;
+  height: 500px;
   overflow: hidden;
   
 }
+
+@media screen and (max-width: 768px) {
+	 .carousel-inner{
+	  height: 200px;
+	  overflow: hidden;
+	  }
+    }
+
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
  min-width: 100%;  
 }
 
-a.navbar-brand:link {
-	
+
+.navbar-default .navbar-brand {
+	color: white;
 }
+
+
 
 .row {
 	margin:0px auto;
@@ -53,7 +64,7 @@ h1 {
 	
 footer {
 	background-color: black;
-	padding: 30px;
+	padding-top: 30px;
 }
 
 .list-unstyled{
@@ -86,8 +97,13 @@ input.form-control, form-control {
 	border-radius: 0px;
 }
 
+a.navbar-default:link {
+	color: white;
+}
+
+
 hr {
-	border: 1px dashed #D8D8D8;
+	border: 1px solid #EAEAEA;
 	margin-top: 30px;
 }
 
@@ -102,9 +118,10 @@ footer {
 .thumbnail {
 	border-radius: 0px;
 	border: 0px;
-	height: 250px;
+	height: 300px;
 	overflow: hidden;
 }
+
 
 
 .caption {
@@ -127,4 +144,27 @@ footer {
 
 .black {
 	background-color: black !important;
+	color: white;	
 }
+
+.navbar-link {
+	color: white
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+#footercenter {
+	margin: 0px auto 40px auto;
+	width: 400px;
+	
+}
+
+#nav-search {
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+}
+
+
